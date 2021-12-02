@@ -6,6 +6,7 @@ textInput.addEventListener('keydown',enterKey);
 function enterKey(e){
     if(e.code == 'Enter'){
         addBtn.click();
+        textInput.value="";
     }
 }
 function addToDo(e){
