@@ -25,6 +25,7 @@ function addToDo(e){
                             <i class="fas fa-trash-alt"></i>
                         </button>`
     listGroup.appendChild(newLi);
+    textInput.value="";
 }
 
 function removeWork(e){
